@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>عرض البطاقة الشخصية</title>
-  <link rel="stylesheet" href="card-style.css">
+  <meta charset="UTF-8" />
+  <title>Card Preview</title>
+  <link rel="stylesheet" href="card-style.css" />
 </head>
 <body>
-
-  <div class="card-container">
-    <div class="card" id="characterCard">
-      <div class="card-header">
-        <h2 id="cardTitle">اسم الشخصية</h2>
-        <p id="tribeName">اسم القبيلة</p>
-      </div>
-      <div class="card-image" id="cardImage">
-        <!-- صورة الشخصية -->
-      </div>
-      <div class="card-details">
-        <p><strong>عدد الأرواح:</strong> <span id="health">3</span></p>
-        <p><strong>نوع النرد:</strong> <span id="dice">D6</span></p>
-      </div>
-      <button onclick="confirmCard()">تأكيد</button>
-    </div>
-  </div>
+  <h1>Card Preview</h1>
+  <div id="cardContainer" class="card"></div>
 
   <script src="card-display.js"></script>
 </body>
